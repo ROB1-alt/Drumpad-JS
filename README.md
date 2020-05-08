@@ -1,3 +1,3 @@
 # Drumpad-JS
 
-Little project for Bruno Simon classes.
+Little project for Bruno Simon's class.
