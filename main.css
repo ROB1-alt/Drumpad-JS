@@ -1,13 +1,27 @@
 body{
     background: #000;
+    font-family: 'Russo One', sans-serif;
+    color:white;
 }
 
-
+h1{
+    text-align: center;
+    font-size: 90px;
+}
 .wrapper {
     display: grid;
     grid-template-columns: 150px 150px 200px;
 
   }
+
+  .framework{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+    margin-left: 100px;
+}
+  
 
 .squared1 {
     width: 100px;
