@@ -2,7 +2,9 @@
     --mainColor: #000;
     --Buttons: #353b48;
     --firstButton: #e84118;
-    --secondButton: 
+    --secondButton: #3742fa;
+    --thirdButton: #05c46b;
+
 }
 
 body{
@@ -45,9 +47,9 @@ h1{
     height: 100px;
     margin: 10px 0;
     border-radius: 20%;
-    border: 2px solid blue;
+    border: 2px solid var(--secondButton);
     background: var(--Buttons);
-    box-shadow: 5px 5px 20px blue;
+    box-shadow: 5px 5px 20px var(--secondButton);
 }
 
 .squared3 {
@@ -55,7 +57,7 @@ h1{
     height: 100px;
     margin: 10px 0;
     border-radius: 20%;
-    border: 2px solid green;
+    border: 2px solid var(--thirdButton);
     background: var(--Buttons);
-    box-shadow: 5px 5px 20px green;
+    box-shadow: 5px 5px 20px var(--thirdButton);
 }
