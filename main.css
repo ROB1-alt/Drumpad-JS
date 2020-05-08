@@ -15,7 +15,8 @@ body{
     margin: 10px 0;
     border-radius: 20%;
     border: 2px solid red;
-    background: white;
+    background: #353b48;
+    box-shadow: 5px 5px 20px red;
 }
 
 .squared2 {
@@ -24,7 +25,8 @@ body{
     margin: 10px 0;
     border-radius: 20%;
     border: 2px solid blue;
-    background: white;
+    background: #353b48;
+    box-shadow: 5px 5px 20px blue;
 }
 
 .squared3 {
@@ -33,5 +35,6 @@ body{
     margin: 10px 0;
     border-radius: 20%;
     border: 2px solid green;
-    background: white;
+    background: #353b48;
+    box-shadow: 5px 5px 20px green;
 }
