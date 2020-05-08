@@ -63,22 +63,10 @@ h1{
     box-shadow: 5px 5px 20px var(--thirdButton);
 }
 
-.volumeControlerUp{
-    color:white;
-    text-align: center;
-    background: var(--mainColor);
-    width: 40px;
-    height: 40px;
-    border-radius: 5px 5px 5px 5px;
-    border: 2px solid var(--masterVolume);
-}
-
-.volumeControlerDown{
-    color:white;
-    text-align: center;
-    background: var(--mainColor);
-    width: 40px;
-    height: 40px;
-    border-radius: 5px 5px 5px 5px;
-    border: 2px solid var(--masterVolume);
+.controlerVolume {
+    background: white;
+    width: 200px;
+    height: 20px;
+    border-radius:  10px  10px 10px   20%;
+    border: 5px solid var(--masterVolume);
 }
