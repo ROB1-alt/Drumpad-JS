@@ -1,5 +1,11 @@
+:root{
+    --mainColor: #000;
+    --Buttons: #353b48;
+    --firstButton: #e84118;
+}
+
 body{
-    background: #000;
+    background-color: var(--mainColor);
     font-family: 'Russo One', sans-serif;
     color:white;
 }
@@ -28,9 +34,9 @@ h1{
     height: 100px;
     margin: 10px 0;
     border-radius: 20%;
-    border: 2px solid red;
-    background: #353b48;
-    box-shadow: 5px 5px 20px red;
+    border: 2px solid var(--firstButton);
+    background: var(--Buttons);
+    box-shadow: 5px 5px 20px var(--firstButton);
 }
 
 .squared2 {
@@ -39,7 +45,7 @@ h1{
     margin: 10px 0;
     border-radius: 20%;
     border: 2px solid blue;
-    background: #353b48;
+    background: var(--Buttons);
     box-shadow: 5px 5px 20px blue;
 }
 
@@ -49,6 +55,6 @@ h1{
     margin: 10px 0;
     border-radius: 20%;
     border: 2px solid green;
-    background: #353b48;
+    background: var(--Buttons);
     box-shadow: 5px 5px 20px green;
 }
