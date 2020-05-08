@@ -1,9 +1,10 @@
 :root{
-    --mainColor: #000;
-    --Buttons: #353b48;
+    --mainColor: #0e0c0c;
+    --Buttons: #000;
     --firstButton: #e84118;
     --secondButton: #3742fa;
     --thirdButton: #05c46b;
+    --masterVolume: white;
 
 }
 
@@ -60,4 +61,24 @@ h1{
     border: 2px solid var(--thirdButton);
     background: var(--Buttons);
     box-shadow: 5px 5px 20px var(--thirdButton);
+}
+
+.volumeControlerUp{
+    color:white;
+    text-align: center;
+    background: var(--mainColor);
+    width: 40px;
+    height: 40px;
+    border-radius: 5px 5px 5px 5px;
+    border: 2px solid var(--masterVolume);
+}
+
+.volumeControlerDown{
+    color:white;
+    text-align: center;
+    background: var(--mainColor);
+    width: 40px;
+    height: 40px;
+    border-radius: 5px 5px 5px 5px;
+    border: 2px solid var(--masterVolume);
 }
