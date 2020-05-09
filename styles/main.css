@@ -65,12 +65,12 @@ h1{
 
 .controlerVolume {
     transform: rotate(90deg);
-    width: 190px;
+    width: 160px;
     height: 30px;
     border-radius:  25px;
     box-shadow: 5px 5px 20px var(--masterVolume);
     position: absolute;
-    left:33px;
+    left: 46px;
     top:490px;
     z-index: 1;
 }
