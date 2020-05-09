@@ -76,7 +76,7 @@ h1{
 }
 
 .volumeConfig{
-    transform: rotate(90deg);
+    transform: rotate(-90deg);
     position: absolute;
     top:490px;
     left:58px;
