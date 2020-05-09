@@ -28,5 +28,12 @@ document.addEventListener("keydown", function(event) {
        case 65:
            Sound ('firstSound')
         break
+       case 90:
+           Sound ()
+        break
+       case 69:
+           Sound ()  
+        break
+       case  
    }
        })
