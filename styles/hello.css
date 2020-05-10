@@ -105,7 +105,7 @@ h1{
 @media screen and (min-width: 1630px){
     .startButton{
         font-family: 'Russo One', sans-serif;
-        margin-left: 850px;
+        margin-left: 750px;
         background: var(--mainColor);
         color:black;
         width: 200px;
