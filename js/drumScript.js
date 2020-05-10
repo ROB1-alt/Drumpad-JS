@@ -22,6 +22,7 @@ function Sound (id){
 }
 
 // my keyboard listener 
+// I decided to make a drumpad who works with keyboard
 
 document.addEventListener("keydown", function(event) {
    let eventWichKey = event.which
