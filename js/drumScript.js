@@ -4,7 +4,6 @@ console.log(soundVolume.value / 10)
 
 //const slider = document.getElementById("myRange");
 //const output = document.getElementById("demo");
-//output.innerHTML = slider.value; // Display the default slider value
 
 // if i have the time :
 //slider.oninput = function() {

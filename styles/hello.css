@@ -8,13 +8,42 @@ h1{
     text-align: center;
 }
 .startButton{
-    position: absolute;
-    top:190px;
-    left:743px;
-    color:white;
+    font-family: 'Russo One', sans-serif;
+    margin-left: 400px;
+    background: #fff;
+    color:black;
     width: 200px;
     height:50px;
     border-radius: 5px 5px 5px 5px;
     border: 2px solid white;
     box-shadow: 5px 5px 20px white;
+}
+
+@media screen and (min-width: 1630px){
+    .startButton{
+        font-family: 'Russo One', sans-serif;
+        margin-left: 850px;
+        background: #fff;
+        color:black;
+        width: 200px;
+        height:50px;
+        border-radius: 5px 5px 5px 5px;
+        border: 2px solid white;
+        box-shadow: 5px 5px 20px white;
+    }
+}
+
+@media screen and (max-width:460px){
+    .startButton{
+        font-family: 'Russo One', sans-serif;
+        margin-left: 120px;
+        background: #fff;
+        color:black;
+        width: 200px;
+        height:50px;
+        border-radius: 5px 5px 5px 5px;
+        border: 2px solid white;
+        box-shadow: 5px 5px 20px white;
+    }
+        
 }
