@@ -1,5 +1,11 @@
+:root{
+    --mainColor: #f5f6fa;
+    --backColor : #1e272e;
+}
+
+
 body{
-    background: #000;
+    background: var(--backColor);
     font-family: 'Russo One', sans-serif;
     color:white;
     overflow: hidden;
@@ -9,9 +15,9 @@ body{
 .circle{
     position: absolute;
     border-radius: 50%;
-    background: #fff;
+    background: var(--mainColor);
     animation: ripple 15s infinite;
-    box-shadow: 0px 0px 1px 0px #000;
+    box-shadow: 0px 0px 1px 0px var(--backColor);
 }
 
 .small{
@@ -86,13 +92,13 @@ h1{
 .startButton{
     font-family: 'Russo One', sans-serif;
     margin-left: 400px;
-    background: #fff;
+    background: var(--mainColor);
     color:black;
     width: 200px;
     height:50px;
     border-radius: 5px 5px 5px 5px;
-    border: 2px solid white;
-    box-shadow: 5px 5px 20px white;
+    border: 2px solid var(--mainColor);
+    box-shadow: 5px 5px 20px var(--mainColor);
 }
 /*Little bit of responsive*/
 
@@ -100,13 +106,13 @@ h1{
     .startButton{
         font-family: 'Russo One', sans-serif;
         margin-left: 850px;
-        background: #fff;
+        background: var(--mainColor);
         color:black;
         width: 200px;
         height:50px;
         border-radius: 5px 5px 5px 5px;
-        border: 2px solid white;
-        box-shadow: 5px 5px 20px white;
+        border: 2px solid var(--mainColor);
+        box-shadow: 5px 5px 20px var(--mainColor);
     }
 }
 
@@ -114,13 +120,13 @@ h1{
     .startButton{
         font-family: 'Russo One', sans-serif;
         margin-left: 120px;
-        background: #fff;
+        background: var(--mainColor);
         color:black;
         width: 200px;
         height:50px;
         border-radius: 5px 5px 5px 5px;
-        border: 2px solid white;
-        box-shadow: 5px 5px 20px white;
+        border: 2px solid var(--mainColor);
+        box-shadow: 5px 5px 20px var(--mainColor);
     }
         
 }
