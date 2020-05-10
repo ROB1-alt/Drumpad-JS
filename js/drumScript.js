@@ -1,6 +1,7 @@
 // volume controler 10 by 10 step
 const soundVolume = document.querySelector('.volumeConfig')
 console.log(soundVolume.value / 10)
+let touch = document.querySelectorAll('.box')
 
 //const slider = document.getElementById("myRange");
 //const output = document.getElementById("demo");
@@ -21,6 +22,11 @@ function Sound (id){
     }
 }
 
+touch.addEventListener("click", function
+    
+  
+
+
 // my keyboard listener 
 // I decided to make a drumpad who works with keyboard
 
@@ -29,6 +35,7 @@ document.addEventListener("keydown", function(event) {
    switch (eventWichKey){
        case 65:
            Sound ('loudKick')
+
         break
         case 90:
            Sound ('loudSnare')
