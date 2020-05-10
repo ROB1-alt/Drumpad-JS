@@ -5,10 +5,12 @@
     --secondButton: #3742fa;
     --thirdButton: #05c46b;
     --masterVolume: white;
+    --movingColor: #f1c40f;
 
 }
 
 body{
+    overflow: hidden;
     background-color: var(--mainColor);
     font-family: 'Russo One', sans-serif;
     color:white;
@@ -88,3 +90,4 @@ h1{
     left:558px;
     z-index: 2;
 }
+
