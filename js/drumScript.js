@@ -1,7 +1,7 @@
 // volume controler 10 by 10 step
 const soundVolume = document.querySelector('.volumeConfig')
 console.log(soundVolume.value / 10)
-let touch = document.querySelectorAll('.box')
+const touch = document.querySelectorAll('.box')
 
 //const slider = document.getElementById("myRange");
 //const output = document.getElementById("demo");
@@ -22,7 +22,6 @@ function Sound (id){
     }
 }
 
-touch.addEventListener("click", function
     
   
 
@@ -64,3 +63,26 @@ document.addEventListener("keydown", function(event) {
    }
 })
    
+window.addEventListener("keydown", checkKeyPress, false)
+
+
+function checkKeyPress(key){
+    if (key.keyCode == "65"){
+        touch = 'scale(1.10)'
+    }
+}
+
+const activeStyle = {
+    backgroundColor: 'orange',
+    boxShadow: "0 3px orange",
+    height: 77,
+    marginTop: 13
+  }
+  
+  const inactiveStyle = {
+    backgroundColor: 'grey',
+    marginTop: 10,
+    boxShadow: "3px 3px 5px black"
+  }
+
+  
