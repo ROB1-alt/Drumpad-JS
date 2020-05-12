@@ -11,9 +11,13 @@ const touch = document.querySelectorAll('.box')
   //output.innerHTML = this.value;
 
 
+
+
 // function for using my awesome drumpad
+
+
 function Sound (id){
-    let sound = document.getElementById(id)
+    const sound = document.getElementById(id)
     sound.volume = soundVolume.value / 10
     if (sound.paused){
     sound.play()
@@ -22,31 +26,43 @@ function Sound (id){
     }
 }
 
-    
-  
-
 
 // my keyboard listener 
 // I decided to make a drumpad who works with keyboard
 
+
+
 document.addEventListener("keydown", function(event) {
    let eventWichKey = event.which
-   switch (eventWichKey){
-       case 65:
-           Sound ('loudKick')
+   let key = document.getElementById(eventWichKey)
 
+   if(key){
+       key.style.boxShadow = "5px 5px 20px white"
+   }
+
+//moving CSS when keyup
+
+document.addEventListener('keyup', () =>{
+    let keys = document.getElementsByClassName('box-shadow')
+    for(var i = 0 ; i < keys.length ; i++){
+        keys[i].style.boxShadow = null
+    }
+})
+   switch (eventWichKey){
+        case 65:
+           Sound ('loudKick')
         break
         case 90:
            Sound ('loudSnare')
         break
         case 69:
-           Sound ('fastKick')  
+           Sound ('fastKick')
         break
         case 81:
-            Sound ('techKick')  
+            Sound ('techKick')
         break
         case 83:
-            Sound ('longDing')  
+            Sound ('longDing')
         break
         case 68:
            Sound ('loudChip')
@@ -63,26 +79,4 @@ document.addEventListener("keydown", function(event) {
    }
 })
    
-window.addEventListener("keydown", checkKeyPress, false)
 
-
-function checkKeyPress(key){
-    if (key.keyCode == "65"){
-        touch = 'scale(1.10)'
-    }
-}
-
-const activeStyle = {
-    backgroundColor: 'orange',
-    boxShadow: "0 3px orange",
-    height: 77,
-    marginTop: 13
-  }
-  
-  const inactiveStyle = {
-    backgroundColor: 'grey',
-    marginTop: 10,
-    boxShadow: "3px 3px 5px black"
-  }
-
-  

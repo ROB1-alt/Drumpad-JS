@@ -100,6 +100,10 @@ h1{
     border: 2px solid var(--mainColor);
     box-shadow: 5px 5px 20px var(--mainColor);
 }
+
+
+
+
 /*Little bit of responsive*/
 
 @media screen and (min-width: 1630px){
